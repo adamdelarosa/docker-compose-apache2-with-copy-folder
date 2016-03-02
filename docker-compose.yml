@@ -1,7 +1,7 @@
 version: '2'
 services:
- java:
-  container_name: java
+ apache2:
+  container_name: apache2
   build: .
   ports:
   - "80:80"
